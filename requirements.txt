@@ -1,0 +1,11 @@
+# Required
+cryptography
+
+# Optional – Excel export (.xlsx)
+openpyxl
+
+# Optional – clipboard support (auto-copy generated password)
+pyperclip
+
+# Optional – OS-standard user-data directory resolution
+appdirs

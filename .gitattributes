@@ -1,0 +1,22 @@
+# Normalize line endings for all text files to LF in the repository.
+# Git will convert to the OS native line ending on checkout.
+* text=auto
+
+# Python source files – always use LF
+*.py    text eol=lf
+
+# Markdown and plain text – always use LF
+*.md    text eol=lf
+*.txt   text eol=lf
+
+# JSON / config files – always use LF
+*.json  text eol=lf
+*.cfg   text eol=lf
+*.ini   text eol=lf
+
+# Binary files – tell Git not to modify them at all
+*.png   binary
+*.jpg   binary
+*.ico   binary
+*.xlsx  binary
+*.pyc   binary
